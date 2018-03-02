@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Card, CardText, CardBody, CardLink,
   CardTitle, CardSubtitle } from 'reactstrap';
+import cards from './cardss'
 
   const Cards =(props) => {
     return (
       <div>
-        <Card>
+        <Card className='cardd'>
           <CardBody>
             <CardTitle>{props.name}</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
@@ -22,4 +23,4 @@ import { Card, CardText, CardBody, CardLink,
   }
  
 
-export default Cards;
+export default Cardss;

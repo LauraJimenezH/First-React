@@ -20,8 +20,10 @@ class App extends Component {
   }
   render() {
     return (
-     <Header/>,
-     <Cards/> 
+      <div>
+     <Header/>
+     <Cards name="Laura"/>
+     </div>
     )   
   }
 }
